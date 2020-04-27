@@ -1,0 +1,29 @@
+{
+    "/api": {
+        "target": "https://recipebook-e7d9a.firebaseio.com",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/api": ""
+          }
+    },
+    "/signupapi": {
+        "target": "https://identitytoolkit.googleapis.com/v1/accounts:signUp?",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/signupapi": ""
+          }
+    },
+    "/loginapi": {
+        "target": "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/loginapi": ""
+          }
+    }
+}
