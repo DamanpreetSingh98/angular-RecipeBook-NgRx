@@ -36,7 +36,7 @@
     "@nguniversal/module-map-ngfactory-loader": "^8.2.6",
     "bootstrap": "^3.4.1",
     "class-transformer": "^0.2.3",
-    "class-validator": "^0.9.1",
+    "class-validator": "^0.14.0",
     "core-js": "^3.1.2",
     "express": "^4.17.1",
     "node-gyp": "^6.1.0",
